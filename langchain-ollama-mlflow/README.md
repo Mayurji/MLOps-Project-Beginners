@@ -132,13 +132,9 @@ result = agent_executor.invoke({"input": "What is 128 / 4 * 3?"})
 
 ---
 
-## Part 3 — Custom Evaluation (`03_custom_evaluation.py`)
+## Part 3 — Custom Evaluation
 
 **Concepts:** `mlflow.genai.evaluate()`, `@scorer`, rule-based scorers, eval datasets.
-
-```bash
-~/python3-env/bin/python3 03_custom_evaluation.py
-```
 
 ### Evaluation dataset format
 
