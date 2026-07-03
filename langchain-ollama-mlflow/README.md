@@ -179,7 +179,7 @@ score + rationale.
 
 ---
 
-## Part 4 — LLM-as-a-Judge (`04_llm_judge_evaluation.py`)
+## Part 4 — LLM-as-a-Judge
 
 **Concepts:** LLM judges, structured judge prompts, combining judge + rule scorers.
 
@@ -187,7 +187,7 @@ score + rationale.
 ~/python3-env/bin/python3 04_llm_judge_evaluation.py
 ```
 
-Instead of calling OpenAI, the **judge is the same local Ollama model**.
+Instead of calling OpenAI, the **judge is the local Ollama model**.
 The judge receives a structured prompt and returns a JSON score + rationale:
 
 ```python
