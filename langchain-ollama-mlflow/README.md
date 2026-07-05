@@ -208,7 +208,7 @@ def llm_correctness(inputs, outputs, expectations) -> dict:
 
 ---
 
-## Part 5 — Production Monitoring (`05_monitoring_dashboard.py`)
+## Part 5 — Production Monitoring 
 
 **Concepts:** per-step metrics, latency tracking, success rate, session tags.
 
@@ -241,7 +241,7 @@ mlflow.log_metrics({
 
 ---
 
-## Part 6 — RAG Pipeline Evaluation (`06_rag_pipeline_evaluation.py`)
+## Part 6 — RAG Pipeline Evaluation 
 
 **Concepts:** RAG chains, retrieval + generation tracing, faithfulness scoring.
 

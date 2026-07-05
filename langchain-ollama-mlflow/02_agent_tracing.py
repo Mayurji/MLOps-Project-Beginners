@@ -48,7 +48,7 @@ from langgraph.prebuilt import create_react_agent
 
 # ── 1. MLflow setup ───────────────────────────────────────────
 mlflow.set_tracking_uri("http://localhost:6001")
-mlflow.set_experiment("langchain-ollama-agent")
+mlflow.set_experiment("langchain-ollama-agents")
 mlflow.langchain.autolog()
 
 # ── 2. Define custom tools ────────────────────────────────────
